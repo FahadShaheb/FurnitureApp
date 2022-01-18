@@ -72,6 +72,9 @@ flutter:
   - images/f.jpg
   - images/g.png
   - images/h.jpg
+  - images/chair.png
+  - images/cupboard.png
+  - images/furniture.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
