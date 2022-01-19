@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
-import 'package:furniture_app/widgets/arrivals.dart';
+import 'package:furniture_app/widgets/arrivals_card.dart';
+import 'package:furniture_app/widgets/bestselling_card.dart';
 import 'package:furniture_app/widgets/category_card.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -153,14 +154,70 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
+          // Container(
+          //   height: 10,
+          // ),
           Container(
-            height: 10,
+            // color: Colors.cyanAccent,
+            padding: const EdgeInsets.only(left: 10, right: 10),
+            width: double.infinity,
+            height: 200,
+            child: const CategoryCard(),
+          ),
+          // Container(
+          //   height: 10,
+          // ),
+          Container(
+            // color: Colors.blueAccent,
+            padding: const EdgeInsets.only(left: 5, right: 5),
+            width: double.infinity,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  width: 300,
+                  padding: const EdgeInsets.only(left: 5),
+                  child: const ListTile(
+                    title: Text(
+                      "Best Seller",
+                      style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 2,
+                      ),
+                    ),
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {},
+                  child: Container(
+                    width: 180,
+                    // alignment: Alignment.topRight,
+                    padding: const EdgeInsets.only(right: 5),
+                    child: const ListTile(
+                      title: Text(
+                        "Show All",
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 2,
+                        ),
+                      ),
+                      trailing: Icon(
+                        Icons.keyboard_arrow_right_outlined,
+                        color: Color(0xFF000000),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
           Container(
             padding: const EdgeInsets.only(left: 10, right: 10),
             width: double.infinity,
-            height: 300,
-            child: const CategoryCard(),
+            height: 170,
+            child: const BestSelling(),
           ),
         ],
       ),

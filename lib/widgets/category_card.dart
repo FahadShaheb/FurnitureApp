@@ -10,15 +10,15 @@ class CategoryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: double.infinity,
+        height: 200,
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: [
             Column(
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 120,
+                  width: 120,
                   child: GestureDetector(
                     onTap: () {},
                     child: Card(
@@ -37,11 +37,11 @@ class CategoryCard extends StatelessWidget {
                 ),
                 Container(
                   height: 80,
-                  width: 140,
+                  width: 120,
                   child: Column(
                     children: [
                       Container(
-                        width: 150,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, top: 5),
                         // height: 40,
                         child: Text(
@@ -53,7 +53,7 @@ class CategoryCard extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        width: 140,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, bottom: 5),
                         // height: 25,
                         child: Text(
@@ -75,8 +75,8 @@ class CategoryCard extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 120,
+                  width: 120,
                   child: GestureDetector(
                     onTap: () {},
                     child: Card(
@@ -95,11 +95,11 @@ class CategoryCard extends StatelessWidget {
                 ),
                 Container(
                   height: 80,
-                  width: 140,
+                  width: 120,
                   child: Column(
                     children: [
                       Container(
-                        width: 150,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, top: 5),
                         // height: 40,
                         child: Text(
@@ -111,7 +111,7 @@ class CategoryCard extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        width: 140,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, bottom: 5),
                         // height: 25,
                         child: Text(
@@ -133,8 +133,8 @@ class CategoryCard extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 120,
+                  width: 120,
                   child: GestureDetector(
                     onTap: () {},
                     child: Card(
@@ -153,11 +153,11 @@ class CategoryCard extends StatelessWidget {
                 ),
                 Container(
                   height: 80,
-                  width: 140,
+                  width: 120,
                   child: Column(
                     children: [
                       Container(
-                        width: 150,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, top: 5),
                         // height: 40,
                         child: Text(
@@ -169,7 +169,7 @@ class CategoryCard extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        width: 140,
+                        width: 120,
                         padding: const EdgeInsets.only(left: 10, bottom: 5),
                         // height: 25,
                         child: Text(

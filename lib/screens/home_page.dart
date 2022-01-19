@@ -27,12 +27,11 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: const Color(0xFFffffff),
         centerTitle: true,
         leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.menu_outlined,
-            color: Color(0xFF000000),
-          ),
-        ),
+            onPressed: () {},
+            icon: Image.asset(
+              "images/menu.png",
+              color: Color(0xFF000000),
+            )),
       ),
       body: Container(
         margin: const EdgeInsets.all(5),
